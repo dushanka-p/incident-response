@@ -79,12 +79,20 @@ DeviceLogonEvents
 
 ## Folder Structure
 
+I see what happened — GitHub markdown is showing your **folder structure inline** instead of properly formatted as a tree.
+You need to wrap it in a fenced code block (triple backticks) so it renders correctly.
+
+Here’s the **fixed version** you can copy-paste:
+
+```markdown
+## Folder Structure
+
 01-virtual-machine-brute-force-detection/
 │
-├── README.md          # Overview of the scenario (high-level summary)
-├── walkthrough.md     # Detailed step-by-step lab guide
-├── queries/           # KQL queries used in the scenario
-└── report/            # Final incident report (findings, screenshots, conclusions)
-
+├── README.md       # Overview of the scenario (high-level summary)
+├── walkthrough.md  # Detailed step-by-step lab guide
+├── queries/        # KQL queries used in the scenario
+└── report/         # Final incident report (findings, screenshots, conclusions)
+```
 ---
 
