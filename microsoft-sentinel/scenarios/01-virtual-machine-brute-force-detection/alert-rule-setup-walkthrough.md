@@ -69,7 +69,18 @@ DeviceLogonEvents
 
 ---
 
-### 7. Save
+### 7. Trigger Alert to Create Incident
+
+* Trigger the rule manually to generate an incident.
+* If necessary logs don’t exist, create them by **failing to log into the machine enough times to meet the threshold**.
+* Don’t confuse the sections:
+
+  * **Configuration → Analytics** = where rules are created.
+  * **Threat Management → Incidents** = where triggered alerts appear as incidents.
+
+---
+
+### 8. Save
 
 * Click **Save** to complete rule creation.
 
