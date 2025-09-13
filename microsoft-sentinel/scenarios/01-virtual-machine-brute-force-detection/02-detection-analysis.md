@@ -15,10 +15,16 @@
 <img width="807" height="593" alt="image" src="https://github.com/user-attachments/assets/b0048f56-c858-4e45-bae7-e75b2f5b30c9" />
 
 **Key Findings:**  
-- Four different virtual machines were potentially impacted.  
-- Three different remote public IP addresses attempted brute force logins.  
 
-<img width="378" height="289" alt="image" src="https://github.com/user-attachments/assets/c69089ef-a77e-4f47-b52f-96b4acc65cb2" />
+- Four different virtual machines were potentially impacted by brute force attempts:  
+  - `linux-target-1`  
+  - `misawa`  
+  - `bless-win10`  
+  - `threathuntbsept`  
+- Three remote public IP addresses attempted logins:  
+  - `92.63.197.9`  
+  - `190.57.75.42`  
+  - `194.32.87.93`  
 
 ---
 
