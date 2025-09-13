@@ -30,10 +30,10 @@
 
 ## Containment, Eradication, and Recovery
 
-1. **Identify impacted systems:**  
+1. **Identify impacted systems**  
    - Use **Defender for Endpoint** to find devices targeted by the brute force attempts.  
 
-2. **Contain the incident:**  
+2. **Contain the incident**  
    - Isolate the potentially impacted devices.  
    - Apply containment controls in Azure:  
      - Update the **Network Security Group (NSG)** for your VM.  
@@ -43,7 +43,7 @@
    - NSG was locked down to prevent RDP attempts from the public internet.  
    - Proposed policy: require NSG hardening for all VMs (can be enforced with Azure Policy).  
 
-3. **Eradication:**  
+3. **Eradication**  
    - Verify no successful brute force logons occurred.  
 
    **KQL Query (Log Analytics):**
@@ -61,10 +61,21 @@
 * `190.57.75.42` → unsuccessful
 * `194.32.87.93` → unsuccessful
 
-4. **Recovery:**
+4. **Recovery**
 
    * Run an **antivirus scan** from Defender for Endpoint.
    * Confirm systems are clean and access is restored securely.
 
+---
+
+## Closure
+
+1. Review and confirm the incident resolution.
+
+   * Review/observe your notes for the incident.
+
+2. Finalize reporting and close the case.
+
+   * Close out the Incident within Sentinel as a **True Positive**.
 
 ---
